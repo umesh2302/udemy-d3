@@ -9,7 +9,19 @@ const svg = d3.select("#chart-area").append("svg")
   .attr("height", 400)
 
 svg.append("circle")
-  .attr("cx", 100)
-  .attr("cy", 250)
+  .attr("cx", 200)
+  .attr("cy", 200)
   .attr("r", 70)
   .attr("fill", "red")
+
+/*rect x="0" y="0" width="50" height="50" fill="green"></rect*/
+svg.append('rect')
+  .attr('x',0)
+  .attr('y',0)
+  .attr('width',20)
+  .attr('height',20)
+  .attr('fill','green')
+
+
+
+  
