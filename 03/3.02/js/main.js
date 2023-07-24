@@ -16,6 +16,8 @@ d3.json("data/buildings.json").then(data => {
   const y = d3.scaleLinear()
     .domain([0, 828])
     .range([0, 400])
+    
+
 
   const rects = svg.selectAll("rect")
     .data(data)
